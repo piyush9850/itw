@@ -15,6 +15,7 @@ import Home from "./pages/Home.jsx";
 import NotFound from "./pages/NotFound.jsx";
 import Project from "./pages/Project.jsx";
 import Skill from "./pages/Skill.jsx";
+import {Aboutsection} from "./pages/Aboutsection.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -25,6 +26,7 @@ const router = createBrowserRouter(
         <Route path="contact" element={<Contact />} />
         <Route path="project" element={<Project />} />
         <Route path="skill" element={<Skill />} />
+        <Route path="about" element={<Aboutsection />} />
       </Route>
 
       {/* 🚫 NotFound route without layout */}

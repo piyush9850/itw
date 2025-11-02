@@ -18,6 +18,7 @@ export default function Home(){
       {/* Main Content */}
       <main>
         <HeroSection />
+
       </main>
 
       {/* Footer Section */}

@@ -4,11 +4,11 @@ const projectsList = [
   {
     id: 1,
     title: "Saas Landing Page",
-    description: "A beautiful landing page",
+    description: "Responsive SaaS landing page with modern design and smooth animations",
     imageUrl: "/detail-image-4_1706545833179.jpg",
     tags: ["React", "Tailwind CSS", "Supabase"],
     demourl: "#",
-    githuburl: "#"
+    githuburl: "https://github.com/avnish0902"
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const projectsList = [
     imageUrl: "/Orbit-Blaze.jpg",
     tags: ["TypeScript", "D3.js", "NEXT.js"],
     demourl: "#",
-    githuburl: "#"
+    githuburl: "https://github.com/avnish0902"
   },
   {
     id: 3,
@@ -26,7 +26,7 @@ const projectsList = [
     imageUrl: "/eCommerce_Platform_Pic_2000x.webp",
     tags: ["React", "Node.js", "Stripe"],
     demourl: "#",
-    githuburl: "#"
+    githuburl: "https://github.com/avnish0902"
   }
 ];
 

@@ -1,17 +1,11 @@
-import { ThemeToggle } from "../components/ThemeToggle";
 import { StarBackground } from "@/components/StarBackground";
 import { HeroSection } from "../components/HeroSection";
-import Footer from "../components/Footer/Footer.jsx"
 import React from 'react'
 
 
 export default function Home(){
   return (
     <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
-
-      {/* Theme Toggle */}
-      <ThemeToggle />
-
       {/* Background Effects */}
       <StarBackground />
 
@@ -20,9 +14,6 @@ export default function Home(){
         <HeroSection />
 
       </main>
-
-      {/* Footer Section */}
-      <Footer/>
 
     </div>
   );

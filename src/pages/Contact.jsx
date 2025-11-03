@@ -11,6 +11,7 @@ import { cn } from "../lib/utils";
 import { useToast } from "@/hooks/use-toast";
 import { useState } from "react";
 import { Link } from "react-router-dom"; // ✅ Added Link import
+import Footer from "../components/Footer/Footer.jsx"
 
 export default function Contact() {
   const { toast } = useToast();
@@ -31,6 +32,7 @@ export default function Contact() {
   };
 
   return (
+    <>
     <section id="contact" className="py-24 px-4 relative bg-secondary/30">
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
@@ -180,5 +182,7 @@ export default function Contact() {
         </div>
       </div>
     </section>
+    <Footer/>
+    </>
   );
 }

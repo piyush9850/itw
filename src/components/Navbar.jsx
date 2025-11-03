@@ -2,6 +2,7 @@ import { cn } from "@/lib/utils";
 import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
+import { ThemeToggle } from "../components/ThemeToggle";
 
 const navItems = [
   { name: "Home", to: "/" },
@@ -25,6 +26,7 @@ export const Navbar = () => {
   }, []);
 
   return (
+    <>
     <nav
       className={cn(
         "fixed w-full z-40 transition-all duration-300",
@@ -35,7 +37,7 @@ export const Navbar = () => {
         {/* Brand */}
         <Link to="/" className="text-xl font-bold text-primary flex items-center">
           <span className="relative z-10">
-            <span className="text-glow text-foreground">PedroTech</span> Portfolio
+            <span className="text-glow text-foreground">Tech</span> Portfolio
           </span>
         </Link>
 
@@ -90,6 +92,8 @@ export const Navbar = () => {
         </div>
       </div>
     </nav>
+    <ThemeToggle/>
+    </>
   );
 };
 
